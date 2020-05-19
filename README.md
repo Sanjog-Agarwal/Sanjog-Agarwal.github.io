@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is an awesome website">
+        <title>
+            Sanjog's website
+        </title> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body >
+     <!--NAVBAR-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky top" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img width= 100px src="output-onlinepngtools (1).png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#Home">About Me</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item active" >
+                        <a class="nav-link" href="#slides">Gallery</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#contact">Find Me Here</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+
+     <!--ABOUT ME-->
+        <div class="Home" id="Home">
+        <div class="container-fluid padding">
+        <div class="row text-center  padding">
+            <div class="col-12 Spacing">
+                <h2>About Me</h2>
+            </div>
+            <div class="col-lg-6">
+                <p class="lead">Hi, I am Sanjog Agarwal. I am a First year Electronics and Electrical Engineering ungergraduate at Bits Pilani KK Birla Goa Campus, Goa, India. I find my passion in music production, sound design ang composing. I am striving hard to uplift the EDM culture in India. Apart from this I am making my path to learn programming languages such as C, Java and HTML and to nuture some technical skills in me. I am also well versed with the concepts of aerodyanamics and have built a drone completely form scratch. I also made a fixed wing plane and also visited the National Aviation Museum located in Goa.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="Pic-removebg-preview.png" class="img-fluid">
+            </div>
+        </div>
+        </div>
+        </div>
+
+     <!--SKILLS-->
+        <div class="Skills" id="Skills">
+        <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12 Spacing">
+                <h2 >Skills</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="OIP.jpg" class="img-fluid">
+                <h3>Music Production</h3>
+                <p>Having a experience of more than 4 years</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img  src="download.png" class="img-fluid">
+                <h3>Mixing and Mastering</h3>
+                <p>Having a experience of more than a year</p>
+                <p></p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <i class="fa fa-code"></i>
+                <h3>HTML5</h3>
+                <p>Rate myself as an intermediate</p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img  src="download (1).png" class="img-fluid">
+                <h3>C / Java</h3>
+                <p>Learning and Practising since 2 years</p>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <div id="slides" class="carousel slide " data-ride="carousel">
+            <ul class="carousel-indicators ">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner text-center">
+                <div class="col-12 Spacing">
+                    <h2 >Gallery</h2>
+                </div>
+                <div class="carousel-item active">
+                    <img src="d894f433-0f6b-4aae-87ec-600dfdd871e0.jpg" alt="achivement">
+                </div>
+                <div class="carousel-item">
+                    <img src="250SubscribersMilestone!.png"achivement">
+                </div>
+                <div class="carousel-item">
+                    <img src="db3100a8-ca13-47af-9b88-6d1a38259c80.jpg" alt="achivement">
+                </div>
+                <div class="Buttons">
+                    <a class="carousel-control-prev Buttons" href="#slides" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next Buttons" href="#slides" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+     <!--CONTACT-->
+     <div class="contact" id="contact">
+     <hr class="my-4">
+        <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12 Spacing">
+                <h2>Find Me Here</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="https://www.youtube.com/channel/UCTQTL4E6bEhwzHp4OvrtlYw/" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.instagram.com/sanjog_agarwal_/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/sanjog.agarwal.161" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </body>
+</html>
