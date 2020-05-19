@@ -1,0 +1,66 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    
+}
+.Home{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    background-color: rgb(169, 255, 112);
+    background-image : url(acf42455689ddd50f2b54d024d031891.jpg);
+    background-repeat: no-repeat;
+    border-top:  5px black solid;
+}
+
+.Skills{
+    margin: 1rem;
+    
+}
+.skillset{
+    margin-top: 1rem;
+}
+.fa-code{
+    color: #e54d26;
+    font-size: 5em;
+}
+.fa-java{
+    color: #e54d26;
+    font-size: 5em;
+}
+.navbar {
+    border-top:  5px black solid;
+    padding: 0.5rem;
+}
+.social a {
+    font-size: 2.5em;
+    padding: 3rem;
+    padding-top: 0rem;
+    padding-bottom: 0.22rem;
+}
+.fa-facebook{
+    color: #0e50df;
+}
+.fa-instagram{
+    color: #f50669;
+}
+.fa-youtube{
+    color: #bb0000;
+}
+
+.contact{
+    background-image: url(skyscrapers-cityscape-futuristic-city-blue-sky.jpg);
+    background-repeat: no-repeat;
+}
+.Spacing{
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+.boxed{
+    border: 1px;
+}
+.Buttons{
+    color: yellow;
+    font-size: 2.5em;
+    
+}
